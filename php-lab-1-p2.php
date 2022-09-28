@@ -82,7 +82,7 @@ foreach( $array as $value ) {
 // Switch
 echo "<br><br> Switch Case <br>";
 
-$age = 13;
+$age = 6;
 
 switch ($age>0) {
   case ($age < 5):
@@ -91,7 +91,7 @@ switch ($age>0) {
   case ($age == 5):
     echo "Go to Kindergarden";
     break;
-  case ($age <= 12):
+  case ($age > 5 && $age <= 12):
     echo "Go to grade : 6";
     break;
   default:
